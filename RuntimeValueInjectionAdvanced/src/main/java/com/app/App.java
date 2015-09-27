@@ -17,5 +17,6 @@ public class App
         ApplicationContext ctx = new ClassPathXmlApplicationContext("com/configuration/config.xml");
         BlankDisc disc = ctx.getBean(BlankDisc.class);
         disc.play();
+        System.out.println("test 1");
     }
 }
